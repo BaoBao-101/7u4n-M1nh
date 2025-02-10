@@ -31,4 +31,4 @@ Mình vào cả 2 file nhưng đều không có thông tin gì bổ x nên check
 
 ![image](https://github.com/user-attachments/assets/9e12c301-f551-44d2-b927-b17f00b9a138)
 
-FIA{D1rect0ry_L1sting_3xp0sed}
+Flag: FIA{D1rect0ry_L1sting_3xp0sed}
