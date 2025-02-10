@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/3295fdd1-edd4-427c-8d26-b0ffecec7965)Đây là bài đầu tiên mình unlock được, mặc dù hơi dài nhưng không khó
+Đây là bài đầu tiên mình unlock được, mặc dù hơi dài nhưng không khó
 
 Khi download file .wav về và tìm hiểu, đây là file âm thanh. Khi nghe qua, bạn sẽ để ý phần âm thanh ở đằng sau hơn những tiếng chim đại bàng ban đầu.
 Vì mình đã từng biết đến nó nên việc tìm hiểu công cụ để giải rất nhanh. Có một công cụ để giải online nhưng mình quên tới hiện tại viết write-up nên mình xài cái khác :))
