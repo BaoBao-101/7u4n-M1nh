@@ -1,2 +1,2 @@
-# 7u4n-M1nh
+# CTF
 FIA TECH TEST
