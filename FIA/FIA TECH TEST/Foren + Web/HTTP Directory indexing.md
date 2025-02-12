@@ -8,10 +8,9 @@ Sau khi ấn thử các nút trong video, không có được thông tin gì th�
 
 ![image](https://github.com/user-attachments/assets/63049401-e2ec-45ac-8f32-e2b4325c6062)
 
-Tại src web, mình thấy một comment như trên, mình nghĩ đây là đường dẫn dẫn đến pannel của admin, Chắc là password gì đó ...
+Tại src web, mình thấy một comment như trên. Mình nghĩ đây là đường dẫn dẫn đến pannel của admin, chắc là password gì đó ...
 
 Khi truy cập thì hiện ra thông báo này, mình tiếp tục xóa đường dẫn pass.html để truy cập .../admin
-
 
 ![image](https://github.com/user-attachments/assets/33ba4da2-8dbd-4cb4-91bc-932ce9cf3ddb)
 
