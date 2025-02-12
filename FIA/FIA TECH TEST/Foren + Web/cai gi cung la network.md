@@ -10,7 +10,9 @@ Sau khi tìm hiểu sơ về protocol này mình bắt đầu query để lọc 
 
 Khi bỏ qua những dòng configure đầu tiên các bạn sẽ để ý độ dài của các gói tin đa số là 27 và 35
 
-![image](https://github.com/user-attachments/assets/2a78fcb4-8e22-4b95-8cc9-9cf26661db67) ![image](https://github.com/user-attachments/assets/0120bf97-c2ab-4c62-a9d4-d502284566db)
+![image](https://github.com/user-attachments/assets/2a78fcb4-8e22-4b95-8cc9-9cf26661db67) 
+
+![image](https://github.com/user-attachments/assets/0120bf97-c2ab-4c62-a9d4-d502284566db)
 
 Sau khi tìm hiểu thì 2 độ dài này là từ các thiết bị nhập khác nhau 
 
