@@ -16,7 +16,7 @@ Nhưng vì biết đây là base64 nên mình đã đảo lại thứ tự của
 
 ![image](https://github.com/user-attachments/assets/b1c63bdc-abf8-4a8e-83c6-54ea8faacaf9)
 
-Vậy key đầu tiên cho miss là: fia{mock_flag}
+Vậy key đầu tiên cho mission là: fia{mock_flag}
 
 ![image](https://github.com/user-attachments/assets/438f6d00-a663-4305-a6a4-04de070bf7f3)
 
