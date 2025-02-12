@@ -1,6 +1,4 @@
-Bài này là một bài cũng hay đối với những bạn bước chân vào mảng RE
-
-Tải dữ liệu về thì chúng ta có một file .class , đối với những bạn đã học java thì đây là một tệp bytecode được dich từ java. Vậy thì thử dùng decompiler java của khầy RE đưa cho chúng ta là jadx-gui
+Tải dữ liệu về thì chúng ta có một file .class , đối với những bạn đã học java thì đây là một tệp bytecode được dịch từ java. Vậy thì thử dùng decompiler java của khầy RE đưa cho chúng ta là jadx-gui
 
 ![image](https://github.com/user-attachments/assets/bf0d9e12-565e-433e-967f-592d43176d5e)
 
@@ -18,9 +16,11 @@ Giờ thì xem code có gì ...
 
 Mình nghĩ cipher và phần code này là flag nếu đoán đúng 10/10, mảng cipher sẽ XOR với các giá trị mình đoán và rồi AND với 255 là ra flag. Code mình vừa giải thích vừa rồi chưa hint được cho mình những số cần nhập
 
+Nhưng khi để ý biến var2 và tìm hiểu thì công dụng của nó là in ra dãy số ngẫu nhiên nhưng là cố định. Bởi vì có seed trong object random, nếu không có seed thì dãy số in ra sẽ là ngẫu nhiên nhưng không cố định.
+
 ![image](https://github.com/user-attachments/assets/af69c5cc-27e1-406a-94fe-9643493ab40c)
 
-Nhưng khi để ý biến var2 và tìm hiểu thì công dụng của nó là in ra dãy số ngẫu nhiên nhưng là cố định. Bởi vì có seed trong object random, nếu không có seed thì dãy số in ra sẽ là ngẫu nhiên nhưng không cố định. Vậy mình sẽ viết hàm in ra 10 số đầu tiên trong hàm random đó trong phạm vi 256 số và trả lời xem sao
+Vậy mình sẽ viết hàm in ra 10 số đầu tiên trong hàm random đó trong phạm vi 256 số và trả lời xem sao
 
 ![image](https://github.com/user-attachments/assets/bc6bf255-6ef2-4a41-b27f-6fe3fcb73a05)
 
