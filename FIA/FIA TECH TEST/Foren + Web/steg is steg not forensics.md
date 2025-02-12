@@ -21,15 +21,16 @@ Với tên đề bài là steg, mình nghĩ ngay đến bài thuyết trình c�
 
 Mình xài một công cụ trong Kali là exiftool, nó giúp mình phân tích nhiều hơn về picture
 
-![image](https://github.com/user-attachments/assets/0a5f324e-908f-490c-96a1-350d8b190202)
-
 Ảnh eagle có khá nhiều thông tin nhưng không có cái nào mình thấy khả nghi là flag
 
-![image](https://github.com/user-attachments/assets/e985b5fe-c5e7-4b76-9bcc-2ff6cb4d8140)
+![image](https://github.com/user-attachments/assets/0a5f324e-908f-490c-96a1-350d8b190202)
 
 Ảnh treasure có phần title là một dãy hex khá đáng ngờ nên mình đem đi decode nó
 
+![image](https://github.com/user-attachments/assets/e985b5fe-c5e7-4b76-9bcc-2ff6cb4d8140)
+
 ![image](https://github.com/user-attachments/assets/9e83601f-7431-477a-8a4a-0d84df5ad524)
+
 Mình thấy vẫn bị encode nên tiếp tục decode, lần này là base64
 
 ![image](https://github.com/user-attachments/assets/2032c23f-abcc-4166-b765-81e6209e65e7)
