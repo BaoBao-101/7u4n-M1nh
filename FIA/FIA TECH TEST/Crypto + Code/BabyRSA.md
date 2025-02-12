@@ -1,8 +1,8 @@
-Bài này phân tích code xong các bạn có thể dùng tool để giải mã hoặc viết code để giải
+Bài này phân tích code xong các bạn có thể dùng tool để giải mã hoặc viết code để giải, từ file tải về ta phân tích được như hình ảnh
 
 ![image](https://github.com/user-attachments/assets/80198844-47cd-4c88-908f-718e2f5d497b)
 
-Sau khi phân tích code xong hiện tại những dữ liệu đang có là n, d, e, và cipher
+Sau khi phân tích code xong hiện tại những dữ liệu đang có là n, d, e, và cipher.
 
 ![image](https://github.com/user-attachments/assets/b51bcd75-b645-48c5-919e-5024f2dbb5b3)
 
