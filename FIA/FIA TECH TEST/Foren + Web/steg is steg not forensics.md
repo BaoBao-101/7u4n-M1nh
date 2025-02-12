@@ -1,4 +1,4 @@
-Đây là bài đầu tiên mình unlock được, mặc dù hơi dài nhưng không khó
+Đây là bài đầu tiên mình unlock được đó!!!
 
 Khi download file .wav về và tìm hiểu, đây là file âm thanh. Khi nghe qua, bạn sẽ để ý phần âm thanh ở đằng sau hơn những tiếng chim đại bàng ban đầu.
 Vì mình đã từng biết đến nó nên việc tìm hiểu công cụ để giải rất nhanh. Có một công cụ để giải online nhưng mình quên tới hiện tại viết write-up nên mình xài cái khác :))
