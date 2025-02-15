@@ -21,7 +21,7 @@ Công thức tổng quát để giải bài này là
 
 M = c0\*N0\*N0^-1 + c1\*N1\*N1^(-1) + c2\*N2\*N2^(-1) mod N. 
 
-Trong đó M = m^i và i=3 trong vòng for, vì có các module n khác nhau nên ta sẽ kết hợp lại là N = n0*n1*n2
+Trong đó M = m^i và i=3 trong vòng for, vì có các module n khác nhau nên ta sẽ kết hợp lại là N = n0\*n1\*n2
 
 N0 = N/n0 , N1 = N/n1 , N2 = N/n2
 
