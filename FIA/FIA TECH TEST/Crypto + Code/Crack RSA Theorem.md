@@ -25,7 +25,7 @@ Trong đó M = m^i và i=3 trong vòng for, vì có các module n khác nhau nê
 
 N0 = N/n0 , N1 = N/n1 , N2 = N/n2
 
-Ni*Ni^(-1) = 1 mod ni . Ví dụ 35*x mod 3 = 1 mod 3 , dễ dàng để tính ra x là 2.
+Ni\*Ni^(-1) = 1 mod ni . Ví dụ 35*x mod 3 = 1 mod 3 , dễ dàng để tính ra x là 2.
 
 Để tìm được Ni^(-1) các bạn có thể tìm hiểu hàm inverse()
 
