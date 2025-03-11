@@ -1,3 +1,6 @@
+download php với apache
+sudo apt install apache2 php libapache2-mod-php
+
 Vô phần /etc/apache2/mods-enabled/dỉ.conf
 
 Sau chữ DirectoryIndex chỉnh cái đầu thành login.php
