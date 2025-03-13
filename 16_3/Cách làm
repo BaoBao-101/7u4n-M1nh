@@ -1,8 +1,10 @@
 download php với apache
 sudo apt install apache2 php libapache2-mod-php
 
-Vô phần /etc/apache2/mods-enabled/dỉ.conf
+Vô phần /etc/apache2/mods-enabled/dir.conf
 
 Sau chữ DirectoryIndex chỉnh cái đầu thành login.php
 
-Đưa 2 file .php và 1 file css vào /var/www/html với thêm một file log.txt để lấy info acc nhaaa
+Xóa file dashboard đi chắc không cần nữa
+
+File login nhưng chức năng sign up nên không sao
